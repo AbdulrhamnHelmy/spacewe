@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satellites & Space Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div>
+        <img class="logo_nasa" src="images\logo_nasa.png" alt="" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#effects">Effects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero sub-hero">
+      <h1>
+        The Space Weather Research and Technology Applications (SPARTA) Center
+      </h1>
+    </section>
+
+    <!-- Content -->
+    <section class="content-page">
+      <img src="images/AuroraCrater_ISS_4256_NASA_1600x900.jpg" alt="" />
+      <div>
+        <p>
+        Focus: Ionospheric disturbances and communications
+        The SPARTA Center studies how space weather affects the Earth's ionosphere, vital for radio wave propagation and
+        navigation accuracy. Solar flares, geomagnetic activity, and solar wind fluctuations can cause sudden
+        ionospheric disturbances, leading to GPS errors, radio blackouts, and aviation communication issues.
+        SPARTA develops high-resolution models simulating ionospheric density, electron content, and signal distortions.
+        These models improve forecasting and early-warning systems for aviation, maritime transport, military, and
+        emergency services. The center integrates data from radars, ionosondes, and satellites for real-time monitoring.
+        A key mission is identifying how ionospheric storms impact HF radio, satellite communications, and aircraft
+        navigation. Predicting disruptions helps reroute flights, adjust GPS systems, and protect critical
+        infrastructure.
+        The center collaborates with research institutions to refine models of total electron content (TEC), equatorial
+        plasma irregularities, and auroral disturbances. It studies polar cap absorption events affecting high-latitude
+        communication.
+        SPARTA also develops technologies and protocols for communication resilience using AI, multi-source data fusion,
+        and predictive models, aiming to reduce outages, navigation errors, and timing disruptions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &copy; <span id="year"></span> Space Weather Project. All rights
+        reserved.
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
