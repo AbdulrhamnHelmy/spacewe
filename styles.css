@@ -180,9 +180,9 @@ p {
 
 .card:hover {
   background: linear-gradient(145deg, #7a31a8, #781de7);
-  transform: translateY(-8px) scale(1.02) ;
+  transform: translateY(-8px) ;
 /* transform: translateY(-8px) ; */
-  box-shadow: 0 0 5px #8c3b9baa, 0 0 5px #7b1fa2aa;
+  box-shadow: 0 0 5px #4e99c4aa, 0 0 5px #3d9fd8aa;
   transition: 0.3s ease;
 }
 .card img {
